@@ -1,6 +1,6 @@
 # NativeDownloader Module documentation
 
-This is a download file module from native side without third party libraries.
+This is a download file module from url without third party libraries.
 
 if you want to see source code of this module please follow:
 
