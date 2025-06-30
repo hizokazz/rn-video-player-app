@@ -14,7 +14,7 @@ if you want to see source code of this module please follow:
 import NativeDownloaders from '../../specs/NativeDownloader';
 
 try {
-  await NativeDownloaders.downloadFile('Video url', 'test', 'mp4');
+  await NativeDownloaders.downloadFile('<url>', '<file name>', '<file extension eg. mp4>');
 } catch (err) {
   console.error(err);
 }
