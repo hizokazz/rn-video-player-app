@@ -1,4 +1,6 @@
-This is a new [**React Native**](https://reactnative.dev) project that included NativeDownloader module use for training or practice only. You can see about NativeDownloader module in [**Module Specs**](https://github.com/hizokazz/rn-video-player-app/tree/main/specs)
+This is a new [**React Native**](https://reactnative.dev) project that included NativeDownloader module. 
+
+You can see about NativeDownloader module in [**Module Specs**](https://github.com/hizokazz/rn-video-player-app/tree/main/specs)
 
 # Getting Started
 
