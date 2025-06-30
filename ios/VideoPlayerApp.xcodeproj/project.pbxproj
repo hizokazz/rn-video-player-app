@@ -9,31 +9,47 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-VideoPlayerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-VideoPlayerApp.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		143CBBE56C754CE095F08294 /* IBMPlexSansThai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 980F3C89E1854F2EA551FFE6 /* IBMPlexSansThai-Light.ttf */; };
+		22829EE963C047658DD9246E /* IBMPlexSansThai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A712DA46B7214A97909C6827 /* IBMPlexSansThai-Regular.ttf */; };
+		3A87BBC623FF4D548F60F7CA /* IBMPlexSansThai-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4330991F7DA742089D72A303 /* IBMPlexSansThai-Medium.ttf */; };
+		4E2899CAC2E446E5B3691688 /* IBMPlexSansThai-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E38D792269EF469FA0F21A1F /* IBMPlexSansThai-SemiBold.ttf */; };
+		5BB8FF2EC2724639B4886209 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661FA035805C46D587337AC5 /* BootSplash.storyboard */; };
+		618FD1D552E349C196A6E74D /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 305C5788CD1E4802931912C0 /* OFL.txt */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		777228A8600923396A436739 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		7FF166C544E5465A8B3CC7AA /* IBMPlexSansThai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF7C43F544D9414B8EC32488 /* IBMPlexSansThai-Bold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9D47BCAC2585432AAF3049EB /* IBMPlexSansThai-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6995B61CB9F948FF95C36A5E /* IBMPlexSansThai-ExtraLight.ttf */; };
+		B994DF472E0F019200C70E6B /* RCTNativeDownloader.mm in Sources */ = {isa = PBXBuildFile; fileRef = B994DF462E0F019200C70E6B /* RCTNativeDownloader.mm */; };
+		B994DF492E0F03C000C70E6B /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B994DF482E0F03C000C70E6B /* Downloader.swift */; };
+		F0BFD6E619FD4976A80F195F /* IBMPlexSansThai-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9036175C64B148C6B125996F /* IBMPlexSansThai-Thin.ttf */; };
+		F221A20897BD4F31B3DC1BDD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 856CB86406F748389B67E3E9 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = VideoPlayerApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* VideoPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VideoPlayerApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoPlayerApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = VideoPlayerApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		305C5788CD1E4802931912C0 /* OFL.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OFL.txt; path = ../assets/fonts/IBM_Plex_Sans_Thai/OFL.txt; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-VideoPlayerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerApp.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayerApp/Pods-VideoPlayerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4330991F7DA742089D72A303 /* IBMPlexSansThai-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansThai-Medium.ttf"; path = "../assets/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-Medium.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-VideoPlayerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerApp.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerApp/Pods-VideoPlayerApp.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-VideoPlayerApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoPlayerApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661FA035805C46D587337AC5 /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = VideoPlayerApp/BootSplash.storyboard; sourceTree = "<group>"; };
+		6995B61CB9F948FF95C36A5E /* IBMPlexSansThai-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansThai-ExtraLight.ttf"; path = "../assets/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-ExtraLight.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = VideoPlayerApp/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VideoPlayerApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		856CB86406F748389B67E3E9 /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = VideoPlayerApp/Colors.xcassets; sourceTree = "<group>"; };
+		9036175C64B148C6B125996F /* IBMPlexSansThai-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansThai-Thin.ttf"; path = "../assets/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-Thin.ttf"; sourceTree = "<group>"; };
+		980F3C89E1854F2EA551FFE6 /* IBMPlexSansThai-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansThai-Light.ttf"; path = "../assets/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-Light.ttf"; sourceTree = "<group>"; };
+		A712DA46B7214A97909C6827 /* IBMPlexSansThai-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansThai-Regular.ttf"; path = "../assets/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-Regular.ttf"; sourceTree = "<group>"; };
+		B994DF442E0F019200C70E6B /* VideoPlayerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoPlayerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		B994DF452E0F019200C70E6B /* RCTNativeDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeDownloader.h; sourceTree = "<group>"; };
+		B994DF462E0F019200C70E6B /* RCTNativeDownloader.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNativeDownloader.mm; sourceTree = "<group>"; };
+		B994DF482E0F03C000C70E6B /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		DF7C43F544D9414B8EC32488 /* IBMPlexSansThai-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansThai-Bold.ttf"; path = "../assets/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-Bold.ttf"; sourceTree = "<group>"; };
+		E38D792269EF469FA0F21A1F /* IBMPlexSansThai-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSansThai-SemiBold.ttf"; path = "../assets/fonts/IBM_Plex_Sans_Thai/IBMPlexSansThai-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -49,14 +65,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* VideoPlayerApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +73,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				661FA035805C46D587337AC5 /* BootSplash.storyboard */,
+				856CB86406F748389B67E3E9 /* Colors.xcassets */,
 			);
 			name = VideoPlayerApp;
 			sourceTree = "<group>";
@@ -88,11 +98,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				B994DF432E0F013200C70E6B /* NativeDownloader */,
 				13B07FAE1A68108700A75B9A /* VideoPlayerApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9D0C97DDC4FB4AB69C86DFD0 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -105,6 +117,32 @@
 				13B07F961A680F5B00A75B9A /* VideoPlayerApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9D0C97DDC4FB4AB69C86DFD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF7C43F544D9414B8EC32488 /* IBMPlexSansThai-Bold.ttf */,
+				6995B61CB9F948FF95C36A5E /* IBMPlexSansThai-ExtraLight.ttf */,
+				980F3C89E1854F2EA551FFE6 /* IBMPlexSansThai-Light.ttf */,
+				4330991F7DA742089D72A303 /* IBMPlexSansThai-Medium.ttf */,
+				A712DA46B7214A97909C6827 /* IBMPlexSansThai-Regular.ttf */,
+				E38D792269EF469FA0F21A1F /* IBMPlexSansThai-SemiBold.ttf */,
+				9036175C64B148C6B125996F /* IBMPlexSansThai-Thin.ttf */,
+				305C5788CD1E4802931912C0 /* OFL.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B994DF432E0F013200C70E6B /* NativeDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				B994DF452E0F019200C70E6B /* RCTNativeDownloader.h */,
+				B994DF462E0F019200C70E6B /* RCTNativeDownloader.mm */,
+				B994DF442E0F019200C70E6B /* VideoPlayerApp-Bridging-Header.h */,
+				B994DF482E0F03C000C70E6B /* Downloader.swift */,
+			);
+			path = NativeDownloader;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -149,7 +187,7 @@
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -172,19 +210,23 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7FF166C544E5465A8B3CC7AA /* IBMPlexSansThai-Bold.ttf in Resources */,
+				9D47BCAC2585432AAF3049EB /* IBMPlexSansThai-ExtraLight.ttf in Resources */,
+				143CBBE56C754CE095F08294 /* IBMPlexSansThai-Light.ttf in Resources */,
+				3A87BBC623FF4D548F60F7CA /* IBMPlexSansThai-Medium.ttf in Resources */,
+				22829EE963C047658DD9246E /* IBMPlexSansThai-Regular.ttf in Resources */,
+				4E2899CAC2E446E5B3691688 /* IBMPlexSansThai-SemiBold.ttf in Resources */,
+				F0BFD6E619FD4976A80F195F /* IBMPlexSansThai-Thin.ttf in Resources */,
+				618FD1D552E349C196A6E74D /* OFL.txt in Resources */,
+				5BB8FF2EC2724639B4886209 /* BootSplash.storyboard in Resources */,
+				F221A20897BD4F31B3DC1BDD /* Colors.xcassets in Resources */,
+				777228A8600923396A436739 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,18 +313,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+				B994DF472E0F019200C70E6B /* RCTNativeDownloader.mm in Sources */,
+				B994DF492E0F03C000C70E6B /* Downloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* VideoPlayerApp */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
@@ -307,6 +343,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = VideoPlayerApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeDownloader/VideoPlayerApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -334,6 +371,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = VideoPlayerApp;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeDownloader/VideoPlayerApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -408,7 +446,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -473,7 +518,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
