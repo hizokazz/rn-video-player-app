@@ -10,7 +10,7 @@ if you want to see source code of this module please follow:
 
 ## Example
 
-```sh
+```javascript
 import NativeDownloaders from '../../specs/NativeDownloader';
 
 try {
